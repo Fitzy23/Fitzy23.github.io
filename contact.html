@@ -22,12 +22,63 @@
         <header>
             <h1>Online Profile - Contact Information</h1>
         </header>
-
+    <!--Section Element-->
+        <section class="contactinfo">
+            <h2>Want my services for petsitting?</h2>
+            <p>Enter your informaion in the sign up form below:</p>
+        </section>
         
-    <!--Article Element-->
-        <article>
-           
-        </article>
+    <!--Form Element (Inside Divider Element)-->
+        <div class="container">
+            <form method="get" action="thankyou-1.html">
+            <!--Field Set Element-->
+                <fieldset>
+                    <!--Legend Element-->
+                        <legend>Sign Up Form</legend>
+                    <!--Collecting First Name-->
+                        <label for="fname">First Name:
+                            <input type="text" name="fname" 
+                            required placeholder="First Name"
+                            id="fname" autofocus/>
+                        </label>
+                    <!--Collecting Last Name-->
+                        <label for="lname">Last Name:
+                            <input type="text" name="lname" 
+                            required placeholder="Last Name"
+                            id="lname"/>
+                        </label>
+
+                    <!--Collecting Email-->
+                        <label>Email Address:
+                            <input type="email" name="email" 
+                            required placeholder="Email Address"/>
+                        </label>
+                    
+                    <!--Collecting Phone Number-->
+                        <label>Phone Number:
+                            <input type="tel" name="phone" 
+                            required placeholder="Phone Number"/>
+                        </label>
+                    
+                    <!--Adding Break-->
+                        <p></p>
+
+                    <!--Best Ways To Reach Selecton-->
+                        <label>Best Way To Contact:
+                            <select name="bestcontact">
+                                <option value="none">No Preference</option>
+                                <option value="email">Email</option>
+                                <option value="phone">Phone</option>
+                                <option value="owl">Owl</option>
+                            </select>
+                        </label> 
+                </fieldset>
+            <!--Submit Button-->
+                    <label>
+                        <input class="submit" type="submit" value="Submit"/>
+                    </label>
+            </form>
+        </div>
         
     <!--Footer Element-->
         <footer>

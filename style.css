@@ -102,6 +102,33 @@
             right:15px;
     }
 
+    table, th, td
+    {
+        border: 2px solid black;
+    }
+
+    table
+    {
+        margin: auto;
+        background-color: aliceblue;
+        font-size: larger;
+    }
+
+    th, td
+    {
+        padding: 10px;
+    }
+
+    th
+    {
+        background-color: aliceblue;
+    }
+
+    td h1
+    {
+        text-align: center;
+    }
+
 /* Responsive Styles */
     @media screen and (max-width:568px) {
         .taken, .willtake{
